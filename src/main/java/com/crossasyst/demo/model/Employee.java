@@ -2,9 +2,11 @@ package com.crossasyst.demo.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.ToString;
 
-@Data @AllArgsConstructor
+@Data @AllArgsConstructor @ToString
 public class Employee {
+
     private String firstName;
     private String lastName;
 
